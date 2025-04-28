@@ -40,7 +40,7 @@ const ContactSection = () => {
     { icon: <Github className="h-5 w-5" />, label: "GitHub", href: "https://github.com/GhoshSreejon" },
     { icon: <Linkedin className="h-5 w-5" />, label: "LinkedIn", href: "https://www.linkedin.com/in/sreejonghosh/" },
     { icon: <Twitter className="h-5 w-5" />, label: "Twitter", href: "https://x.com/SreejonGhosh" },
-    { icon: <Mail className="h-5 w-5" />, label: "Email", href: "mailto:sreejon.india@gmail.com" },
+    { icon: <Mail className="h-5 w-5" />, label: "Email", href: "mailto:ghosh.sreejon21@gmail.com" },
     { icon: <Code className="h-5 w-5" />, label: "LeetCode", href: "https://leetcode.com/u/nemes1s_gg/" }
   ];
 
@@ -144,14 +144,15 @@ const ContactSection = () => {
                 <div className="mb-8">
                   <p className="text-foreground mb-2">Email:</p>
                   <a href="mailto:sreejon.india@gmail.com" className="text-primary hover:underline">
-                    sreejon.india@gmail.com
+                  ghosh.sreejon21@gmail.com
                   </a>
                 </div>
                 
                 <div className="mb-8">
                   <p className="text-foreground mb-2">Based in:</p>
-                  <p className="text-muted-foreground">
-                    San Francisco, California
+                  {/* <p className="text-muted-foreground"> */}
+                  <p className="text-foreground mb-2">
+                    West Bengal, India
                   </p>
                 </div>
                 

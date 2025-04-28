@@ -4,6 +4,12 @@ import { Trophy, Star, Code, Shield } from 'lucide-react';
 
 const achievements = [
   {
+    title: "50 Days Coding Streak Badge – LeetCode",
+    date: "March 2025",
+    description: "Completed a 50-day coding streak on LeetCode, showcasing consistency and problem-solving skills.",
+    icon: <Trophy className="h-8 w-8 text-theme-pink" />
+  },
+  {
     title: "5-star rating in Python – HackerRank",
     date: "September 2024",
     description: "Achieved a 5-star rating in Python, demonstrating exceptional problem-solving and programming expertise.",
@@ -20,12 +26,6 @@ const achievements = [
     date: "January 2023",
     description: "CTF competition where participants solved security challenges testing and enhancing their ethical hacking skills.",
     icon: <Shield className="h-8 w-8 text-theme-cyan" />
-  },
-  {
-    title: "50 Days Coding Streak Badge – LeetCode",
-    date: "March 2025",
-    description: "Completed a 50-day coding streak on LeetCode, showcasing consistency and problem-solving skills.",
-    icon: <Trophy className="h-8 w-8 text-theme-pink" />
   }
 ];
 

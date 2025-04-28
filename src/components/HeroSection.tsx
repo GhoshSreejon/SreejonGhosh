@@ -41,7 +41,7 @@ const HeroSection = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
-              className="text-lg md:text-xl max-w-2xl text-muted-foreground mb-10"
+              className="text-lg md:text-xl max-w-2xl text-foreground mb-2 mb-10"
             >
               Specializing in AI systems, machine learning models, and creative technology solutions
               that transform ideas into impactful digital experiences.
@@ -70,7 +70,7 @@ const HeroSection = () => {
           >
             <div className="relative w-[350px] h-[350px] lg:w-[400px] lg:h-[400px] rounded-full overflow-hidden border-4 border-theme-purple/30">
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                src="https://github.com/GhoshSreejon/sreejon-ai-portfolio-3d/raw/main/tfug_1by1.png" 
                 alt="Profile" 
                 className="w-full h-full object-cover"
               />
@@ -80,11 +80,11 @@ const HeroSection = () => {
 
         <motion.div 
           initial={{ opacity: 0 }}
-          animate={{ opacity: 0.6 }} /* Changed opacity to 0.6 (60%) as requested */
+          animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 2 }}
-          className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-float"
+          className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center"
         >
-          <span className="text-sm text-muted-foreground mb-2">Scroll to explore</span>
+          <span className="text-sm text-muted-foreground mb-2/50 mb-2">Scroll to explore</span>
           <ArrowDownCircle className="h-6 w-6 text-primary/50" />
         </motion.div>
       </div>

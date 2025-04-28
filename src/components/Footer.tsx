@@ -12,9 +12,9 @@ const Footer = () => {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-theme-purple to-theme-blue">
-              Sreejon<span className="text-theme-pink">.</span>
+              Sreejon Ghosh<span className="text-theme-pink">.</span>
             </h2>
-            <p className="text-muted-foreground mt-2">AI Developer & Creative Technologist</p>
+            <p className="text-muted-foreground mt-2">Data Analyst & AI/ML Developer</p>
           </motion.div>
           
           <motion.div 
@@ -49,7 +49,7 @@ const Footer = () => {
           className="mt-8 pt-8 border-t border-border/20 flex flex-col md:flex-row justify-between items-center text-sm"
         >
           <p className="text-muted-foreground">
-            © {new Date().getFullYear()} Sreejon. All rights reserved.
+            © {new Date().getFullYear()} Sreejon Ghosh. All rights reserved.
           </p>
           <div className="flex gap-4 mt-4 md:mt-0">
             <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">

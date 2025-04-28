@@ -41,7 +41,7 @@ const Navbar = () => {
           className="flex items-center"
         >
           <a href="#home" className="text-2xl font-bold text-glow bg-clip-text text-transparent bg-gradient-to-r from-theme-purple to-theme-blue">
-            Sreejon<span className="text-theme-pink">.</span>
+            Sreejon Ghosh<span className="text-theme-pink">.</span>
           </a>
         </motion.div>
         
@@ -66,7 +66,7 @@ const Navbar = () => {
           
           {/* Resume Button */}
           <motion.a
-            href="https://drive.google.com/uc?export=download&id=YOUR_DRIVE_ID"
+            href="https://drive.google.com/file/d/1KcegB--S21qKyicjMGNJpKQHla4_cFWu/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, y: -20 }}
@@ -113,7 +113,7 @@ const Navbar = () => {
             
             {/* Mobile Resume Link */}
             <a
-              href="https://drive.google.com/uc?export=download&id=YOUR_DRIVE_ID"
+              href="https://drive.google.com/file/d/1KcegB--S21qKyicjMGNJpKQHla4_cFWu/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setMobileMenuOpen(false)}

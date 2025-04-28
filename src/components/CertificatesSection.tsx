@@ -7,25 +7,25 @@ const certificates = [
     title: "Introduction to Machine Learning",
     issuer: "NPTEL",
     date: "October 2024",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    image: "https://raw.githubusercontent.com/GhoshSreejon/sreejon-ai-portfolio-3d/main/Screenshot%202025-04-29%20004320.png"
   },
   {
     title: "Complete ML & Data Science Program",
     issuer: "GFG",
     date: "June 2024",
-    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    image: "https://raw.githubusercontent.com/GhoshSreejon/sreejon-ai-portfolio-3d/main/Screenshot%202025-04-29%20004242.png"
   },
   {
     title: "Excel Skills for Business",
     issuer: "Macquarie University",
     date: "April 2024",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    image: "https://raw.githubusercontent.com/GhoshSreejon/sreejon-ai-portfolio-3d/main/Screenshot%202025-04-29%20004454.png"
   },
   {
     title: "Data Analysis with Tableau",
     issuer: "Tableau Learning Partner",
     date: "February 2024",
-    image: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    image: "https://raw.githubusercontent.com/GhoshSreejon/sreejon-ai-portfolio-3d/main/Screenshot%202025-04-29%20004108.png"
   }
 ];
 
@@ -49,7 +49,7 @@ const CertificatesSection = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Certifi<span className="bg-clip-text text-transparent bg-gradient-to-r from-theme-purple to-theme-blue">cations</span>
           </h2>
-          <p className="text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-foreground mb-2 max-w-3xl mx-auto">
             Professional certifications and educational achievements
           </p>
         </motion.div>
@@ -76,7 +76,7 @@ const CertificatesSection = () => {
                   <Award className="mr-2 h-5 w-5 text-theme-purple" />
                   <h3 className="font-semibold text-lg">{cert.title}</h3>
                 </div>
-                <div className="text-sm text-muted-foreground">
+                <div className="text-foreground mb-2">
                   <p>{cert.issuer}</p>
                   <p className="mt-1">{cert.date}</p>
                 </div>

@@ -66,8 +66,8 @@ const AboutSection = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             About <span className="bg-clip-text text-transparent bg-gradient-to-r from-theme-purple to-theme-blue">Me</span>
           </h2>
-          <p className="text-muted-foreground max-w-3xl mx-auto">
-            A passionate AI developer with expertise in creating intelligent solutions that solve real-world problems
+          <p className="text-foreground mb-2 max-w-3xl mx-auto">
+          A dedicated Data Analyst & AI/ML Developer with expertise in leveraging data-driven insights and intelligent solutions to address real-world challenges.
           </p>
         </motion.div>
         
@@ -80,10 +80,10 @@ const AboutSection = () => {
             variants={fadeInUp}
           >
             <h3 className="text-2xl font-bold mb-6">Who I Am</h3>
-            <p className="text-muted-foreground mb-6">
+            <p className="text-foreground mb-6">
               I'm a B.Tech student in Computer Science and Engineering at LPU, specializing as a Data Analyst. With a keen interest in AI and ML, I'm passionate about using data-driven insights to solve real-world problems.
             </p>
-            <p className="text-muted-foreground">
+            <p className="text-foreground mb-2">
               I've worked on various projects ranging from AI-powered apps to sustainability tools, always focused on creating impactful solutions. I'm confident, adaptable, and thrive in collaborative environments, with a solution-oriented mindset. Eager to learn and grow, I continuously seek new opportunities to expand my skills and contribute to meaningful innovations.
             </p>
           </motion.div>
@@ -143,7 +143,7 @@ const AboutSection = () => {
                     <CardTitle>{service.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-muted-foreground">{service.description}</p>
+                    <p className="text-foreground mb-2">{service.description}</p>
                   </CardContent>
                 </Card>
               </motion.div>

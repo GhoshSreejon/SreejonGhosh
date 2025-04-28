@@ -27,14 +27,14 @@ const Scene3D = () => {
           <FloatingShape 
             position={[-2.5, 1, 0]} 
             scale={isMobile ? 0.6 : 1} 
-            color="#7928CA"
+            color="#4F46E5"
             speed={0.8}
           />
           
           <FloatingShape 
             position={[2, -1, -1]} 
             scale={isMobile ? 0.4 : 0.8} 
-            color="#4F46E5" 
+            color="#FF5733" 
             speed={1.2} 
             distort={0.6}
           />
@@ -42,7 +42,7 @@ const Scene3D = () => {
           <FloatingShape 
             position={[0, 2, -3]} 
             scale={isMobile ? 0.3 : 0.6} 
-            color="#00B5D8" 
+            color="#34D399"
             speed={1.5} 
             distort={0.3}
           />
