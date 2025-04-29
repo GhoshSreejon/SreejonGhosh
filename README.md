@@ -99,5 +99,5 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 
 You can reach out to me via:
 
-- Email: ghosh.sreejon21@gmail.com
-- LinkedIn: [Sreejon's LinkedIn]([https://www.linkedin.com/in/sreejonghosh/])
+- Email: [sreejon@example.com](mailto:sreejon@example.com)
+- LinkedIn: [Sreejon's LinkedIn](https://www.linkedin.com/in/sreejon)
