@@ -25,13 +25,13 @@ To make changes and contribute to this project, follow these steps:
 1. **Clone the repository:**
 
     ```sh
-    git clone <YOUR_GIT_URL>
+    git clone https://github.com/GhoshSreejon/SreejonGhosh.git
     ```
 
 2. **Navigate into the project directory:**
 
     ```sh
-    cd <YOUR_PROJECT_NAME>
+    cd SreejonGhosh
     ```
 
 3. **Install necessary dependencies:**
