@@ -66,7 +66,7 @@ const Navbar = () => {
           
           {/* Resume Button */}
           <motion.a
-            href="https://drive.google.com/file/d/1KcegB--S21qKyicjMGNJpKQHla4_cFWu/view?usp=sharing"
+            href="https://drive.google.com/file/d/1xiJuAqyZleZm6TYWDkf7_Ee_LSbce3iH/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, y: -20 }}
