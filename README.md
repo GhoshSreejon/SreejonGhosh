@@ -6,7 +6,7 @@ Hi, I'm **Sreejon** — a passionate developer focused on creating modern, user-
 
 You can explore more of my work on my [portfolio](https://sreejon.vercel.app).
 
-!([GIF 0_o)](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXZxa2x6Mnl2aXc0bDF5enJsNDZucXdtbjU5M2s0MnF0NWp3amgxciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sBhGwCRZix4G0j0vJl/giphy.gif))
+![Project GIF](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXZxa2x6Mnl2aXc0bDF5enJsNDZucXdtbjU5M2s0MnF0NWp3amgxciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sBhGwCRZix4G0j0vJl/giphy.gif)
 
 ## Project Info
 
