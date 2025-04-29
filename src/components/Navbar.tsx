@@ -113,7 +113,7 @@ const Navbar = () => {
             
             {/* Mobile Resume Link */}
             <a
-              href="https://drive.google.com/file/d/1KcegB--S21qKyicjMGNJpKQHla4_cFWu/view?usp=sharing"
+              href="https://drive.google.com/file/d/1aAs3Ws9d14MTwNy-hgOe9YFmWnvdcMhq/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setMobileMenuOpen(false)}
